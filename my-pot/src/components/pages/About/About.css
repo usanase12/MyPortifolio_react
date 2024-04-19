@@ -1,0 +1,64 @@
+.about {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center; /* Distribute items evenly with space between them */
+    flex-direction: row;
+    align-items: center;
+
+  }
+  
+  .image, .par {
+    flex: 1; /* Make both image and paragraph take up equal space */
+  }
+  
+  
+  .par {
+    color: #798a9a;
+    text-align: center; /* Center-align text */
+    margin-right: 50px;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .butt, .butto {
+    border: none; /* Remove border */
+    padding: 5px 20px; /* Add padding */
+    margin-right: 10px; /* Add margin between buttons */
+    border-radius: 2px; /* Add border-radius */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 0.75rem;
+    margin-top: 5px;
+  }
+  
+  .butt {
+    background-color: yellowgreen; /* Set background color */
+    color: white; /* Set text color */
+  }
+  
+  .butt:hover {
+    background-color: darkgreen; /* Change background color on hover */
+  }
+  
+  .butto {
+    background-color: grey; /* Set background color */
+    color: white; /* Set text color */
+  }
+  
+  .butto:hover {
+    background-color: darkgrey; /* Change background color on hover */
+  }
+  .image img {
+    max-width: none; /* Allow the image to expand to its natural width */
+    height: 400px; /* Set the specific height of the image */
+    margin-left: 100px;
+    vertical-align: middle;
+  }
+  
+  img {
+    vertical-align: middle;
+    border-style: none;
+    margin-right: 20px;
+  }
+  

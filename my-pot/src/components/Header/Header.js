@@ -6,10 +6,10 @@ function Header() {
     <div className='navbar'>
         <ul>
         <li><Link to ='/'>HOME</Link></li>
-        <li><Link to ='/About'>ABOUT</Link></li>
-        <li><Link to='/Service'>SERVICE</Link></li>
-        <li><Link to='/Resume'>RESUME</Link></li>
-        <li><Link to='/Contact'>CONTACT</Link></li>
+        <li><Link to ='/about'>ABOUT</Link></li>
+        <li><Link to='/service'>SERVICE</Link></li>
+        <li><Link to='/resume'>RESUME</Link></li>
+        <li><Link to='/contact'>CONTACT</Link></li>
         </ul>
     </div>
   )
