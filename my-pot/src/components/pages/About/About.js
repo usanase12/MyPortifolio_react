@@ -4,6 +4,7 @@ import "./About.css"
 function About() {
   return (
     <div className='about'>
+        
        <div className='image'><img src={Image} alt='' /></div> 
        <div className="par">
         <h1>About ME</h1>
@@ -22,7 +23,9 @@ function About() {
           </button>
         </div>
       </div>
+      
     </div>
+    
   )
 }
 
